@@ -43,3 +43,4 @@ emptyDeliLine = [1, 2, 3];
 console.log(takeANumberWithoutPerson(emptyDeliLine));
 console.log(takeANumberWithoutPerson(emptyDeliLine));
 console.log(takeANumberWithoutPerson(emptyDeliLine));
+console.log(nowServing(emptyDeliLine));
