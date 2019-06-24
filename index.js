@@ -38,9 +38,3 @@ function currentLine(inLine) {
     return `The line is currently:${peopleInLine}`;
   }
 }
-
-emptyDeliLine = [];
-console.log(takeANumberWithoutPerson(emptyDeliLine));
-console.log(takeANumberWithoutPerson(emptyDeliLine));
-console.log(takeANumberWithoutPerson(emptyDeliLine));
-console.log(nowServing(emptyDeliLine));
