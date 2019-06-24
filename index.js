@@ -39,7 +39,7 @@ function currentLine(inLine) {
   }
 }
 
-emptyDeliLine = [1, 2, 3];
+emptyDeliLine = [];
 console.log(takeANumberWithoutPerson(emptyDeliLine));
 console.log(takeANumberWithoutPerson(emptyDeliLine));
 console.log(takeANumberWithoutPerson(emptyDeliLine));
