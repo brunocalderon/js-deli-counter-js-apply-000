@@ -4,6 +4,12 @@ function takeANumber(inLine, newPerson) {
   return `Welcome, ${newPerson}. You are number ${peopleAhead} in line.`;
 }
 
+function takeANumberWithoutPerson(inline) {
+  let peopleAhead = inline.length + 1;
+  inline.push(peopleAhead.length);
+  return `Welcome. You are number ${peopleAhead} in line, and your ticket number is ${peopleAhead}`;
+}
+
 function nowServing(inLine) {
   if (inLine.length === 0) {
     return 'There is nobody waiting to be served!';
