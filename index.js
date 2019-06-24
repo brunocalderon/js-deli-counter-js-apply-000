@@ -4,10 +4,13 @@ function takeANumber(inLine, newPerson) {
   return `Welcome, ${newPerson}. You are number ${peopleAhead} in line.`;
 }
 
+let currentTicket = 100;
+
 function takeANumberWithoutPerson(inline) {
   let peopleAhead = inline.length + 1;
-  inline.push(peopleAhead.length);
-  return `Welcome. You are number ${peopleAhead} in line, and your ticket number is ${peopleAhead}`;
+  inline.push(currentTicket);
+  let customerTicket = currentTicket + 1;
+  return `Welcome. You are number ${peopleAhead} in line, and your ticket number is ${customerTicket}`;
 }
 
 function nowServing(inLine) {
