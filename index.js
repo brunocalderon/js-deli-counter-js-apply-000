@@ -9,6 +9,7 @@ let currentTicket = 100;
 function takeANumberWithoutPerson(inline) {
   let peopleAhead = inline.length + 1;
   inline.push(currentTicket);
+  currentTicket + 1;
   customerTicket = currentTicket + 1;
   return `Welcome. You are number ${peopleAhead} in line, and your ticket number is ${customerTicket}`;
 }
